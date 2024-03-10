@@ -1,0 +1,10 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	animation: show-modal .7s ease-in-out;
+
+	&.hide {
+		animation: hide-modal .6s ease-in-out both;
+	}
+}

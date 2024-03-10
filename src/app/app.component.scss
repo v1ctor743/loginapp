@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(45deg, #7AC664, #CAFFBB);
+  width: -webkit-fill-available;
+  padding: 20px;
+  text-align: center;
+}
